@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width:100vw;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#0B0B0C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+#panel{
+    overflow: hidden;
+    height: 80%;
+    width:85%;
+    background-color: #FFDFDF;
+    border-radius: 10px;
+    box-shadow:10px 10px rgb(20, 170, 220);
+}
+#uppanel{
+    height: 15%;
+    width: 100%;
+    background-color: #AEDEFC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30%;
+}
+.upcontent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10%;
+}
+.upcontent h2{
+    color:#0E0E10;
+}
+.upcontent .box{
+    height: 35%;
+    width:25%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 130%;
+    font-weight: 600;
+}
+#dowpanel{
+    height: calc(85%);
+    width: 100%;
+    display: flex;
+    gap:10px;
+    padding:20px;
+    flex-wrap: wrap;
+}
+#dowpanel .ball{
+    height: 10%;
+    width: 5%;
+    background-color:#F875AA;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dowpanel .ball:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+#center{
+    margin: auto;
+    font-size: 50px;
+}
+#main button{
+    height: 6%;
+    width: 10%;
+    background-color:cyan;
+    font-size: 25px;
+    border-radius: 20px;
+    color:black;
+    font-style: 'Matter';
+    box-shadow: 0 0 5px cyan,0 0 25px cyan;
+}
+#main button:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
+}
+
+
+
+
+
+
+
+
+
+
